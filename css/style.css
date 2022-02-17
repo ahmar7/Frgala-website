@@ -52,25 +52,35 @@ font-family: 'Poppins', sans-serif;
 
 
 */
+*{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     padding: 0;
     font-size: 16px;
     line-height: 26px;
     margin: 0;
+    scroll-behavior: smooth;
     font-weight: 400;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
 body .page_wapper {
+    scroll-behavior: smooth;
     position: relative;
     overflow: hidden;
 }
 
 
 /*-----------------scroolbar-------------*/
-
+.center-h{
+    text-align: center;
+}
 body::-webkit-scrollbar {
     width: 8px;
 }
@@ -2269,7 +2279,7 @@ button:focus {
 .quote_client_type_one {
     position: relative;
     padding: 90px 0px 90px;
-    background: url(../img/resource/get-a-quote-home-1-bg.jpg);
+    background: url(../img/about/Gardening-2.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
